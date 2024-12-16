@@ -1,0 +1,72 @@
+/* Định dạng cho toàn bộ trang */  
+body {  
+    font-family: Arial, sans-serif; /* Chọn kiểu chữ cho trang */  
+    background-image: url('anh/thot2.jpg'); /* Đường dẫn tương đối đến hình nền */  
+    background-size: 100%; /* Đặt chiều rộng 100% và chiều cao tự động */  
+    height: auto; /* Đảm bảo chiều cao tự động nếu cần thay đổi */  
+    background-position: center; /* Căn giữa hình nền */  
+    background-repeat: no-repeat; /* Không lặp lại hình nền */  
+    margin: 150px; /* Lề cho trang */  
+    color: #FFFFFF; /* Thay đổi màu chữ mặc định thành trắng */  
+}
+
+/* Định dạng cho tiêu đề chính */  
+h1 {  
+    color: #007BFF; /* Màu chữ cho tiêu đề */  
+    text-align: center; /* Căn giữa tiêu đề */  
+}  
+
+/* Định dạng cho các thẻ p */  
+p {  
+    margin: 20px auto;          /* Lề cho các đoạn văn, tự động căn giữa */  
+    font-size: 30px;            /* Kích thước chữ cho mô tả và thông tin */  
+    line-height: 1.5;           /* Khoảng cách giữa các dòng */  
+    text-align: center; 
+    color: #FF4500/* Căn giữa văn bản trong thẻ p */  
+}   
+
+/* Định dạng cho bảng */  
+table {  
+    width: 115%; /* Chiều rộng bảng */   
+    max-width: 800px; /* Kích thước tối đa của bảng */  
+    padding: 10px 20px; /* Padding cho bảng */  
+    margin: 10px auto; /* Căn giữa bảng */  
+    border-collapse: collapse; /* Gộp viền bảng */  
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền bảng với độ trong suốt */  
+    border-radius: 10px; /* Bo góc cho bảng */ /* Thay đổi số sẽ thay đổi độ bo */  
+    overflow: hidden; /* Để bo góc hoạt động tốt hơn, thêm thuộc tính này */  
+} 
+
+/* Định dạng cho các ô trong bảng */  
+th, td {  
+    padding: 12px; /* Padding cho ô */  
+    text-align: left; /* Căn trái cho văn bản */  
+    border: 1px solid #ddd; /* Viền xung quanh các ô */  
+    color: #333333; /* Thay đổi màu chữ trong ô bảng thành màu xám đậm */  
+}    
+
+th {  
+    background-color: #007BFF; /* Màu nền cho tiêu đề bảng */  
+    color: #FFFFFF; /* Màu chữ cho tiêu đề bảng */  
+}  
+
+tr:hover {  
+    background-color: #f1f1f1; /* Màu nền khi rê chuột qua hàng */  
+}  
+
+/* Định dạng cho thông báo lỗi hoặc không tồn tại */  
+p.error {  
+    color: #dc3545; /* Màu đỏ cho thông báo lỗi */  
+    font-weight: bold; /* Đậm chữ */  
+    text-align: center; /* Căn giữa thông báo */  
+}  
+h2 {  
+    color: #007BFF; /* Màu chữ cho tiêu đề */  
+    text-align: center; /* Căn giữa tiêu đề */  
+}  
+/* Định dạng cho thông báo thành công hoặc không có công thức */  
+p.success, p.no-recipe {  
+    color: #28a745; /* Màu xanh lá cho thông báo thành công */  
+    font-weight: bold; /* Đậm chữ */  
+    text-align: center; /* Căn giữa thông báo */  
+}

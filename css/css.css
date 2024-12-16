@@ -1,0 +1,81 @@
+/* Định dạng cho toàn bộ trang */  
+body {  
+    font-family: Arial, sans-serif; /* Chọn kiểu chữ cho trang */  
+    background-image: url('anh/anhnen2.jpg'); /* Đường dẫn tương đối đến hình nền */  
+    background-size: 100%; /* Đặt chiều rộng 100% và chiều cao tự động */  
+    height: auto; /* Đảm bảo chiều cao tự động nếu cần thay đổi */  
+    background-position: center; /* Căn giữa hình nền */  
+    background-repeat: no-repeat; /* Không lặp lại hình nền */  
+    margin: 300px; /* Lề cho trang */  
+    color: #FFFFFF; /* Thay đổi màu chữ mặc định thành trắng */  
+}  
+
+/* Tiêu đề của phần danh sách món ăn */  
+h1 {  
+    text-align: center; /* Căn giữa tiêu đề */  
+    color: #FF5733; /* Thay đổi màu chữ cho tiêu đề sang màu cam */  
+}  
+
+/* Định dạng cho bảng */  
+table {  
+    width: 115%; /* Chiều rộng bảng */   
+    max-width: 1500px; /* Kích thước tối đa của bảng */  
+    padding: 10px 20px; /* Padding cho bảng */  
+    margin: 10px auto; /* Căn giữa bảng */  
+    border-collapse: collapse; /* Gộp viền bảng */  
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền bảng với độ trong suốt */  
+    border-radius: 10px; /* Bo góc cho bảng */ /* Thay đổi số sẽ thay đổi độ bo */  
+    overflow: hidden; /* Để bo góc hoạt động tốt hơn, thêm thuộc tính này */  
+}
+
+/* Định dạng cho các ô trong bảng */  
+th, td {  
+    padding: 12px; /* Padding cho ô */  
+    text-align: left; /* Căn trái cho văn bản */  
+    border: 1px solid #ddd; /* Viền xung quanh các ô */  
+    color: #333333; /* Thay đổi màu chữ trong ô bảng thành màu xám đậm */  
+}  
+
+/* Định dạng cho tiêu đề bảng */  
+th {  
+    background-color: #007BFF; /* Màu nền tiêu đề bảng */  
+    color: #FFD700; /* Thay đổi màu chữ tiêu đề bảng sang vàng */  
+}  
+
+/* Định dạng cho hàng trong bảng khi hover */  
+tr:hover {  
+    background-color: #f1f1f1; /* Màu nền khi rê chuột qua hàng */  
+}  
+
+/* Định dạng cho liên kết trong bảng */  
+table a {  
+    text-decoration: none; /* Xóa gạch chân */  
+    color: #FF4500; /* Thay đổi màu liên kết thành màu đỏ cam */  
+    padding: 4px 8px; /* Padding xung quanh liên kết */  
+    border-radius: 4px; /* Bo góc cho liên kết */  
+}  
+
+/* Định dạng cho liên kết khi hover */  
+table a:hover {  
+    background-color: #e2e6ea; /* Màu nền khi di chuột qua liên kết */  
+    color: #0056b3; /* Màu chữ khi di chuột qua liên kết */  
+}  
+
+/* Định dạng cho nút "Thêm" */  
+.add-button {  
+    margin: 10px auto;
+    display: inline-block; /* Hiển thị như một khối nội tuyến */  
+    padding: 10px 20px; /* Padding cho button */  
+    border: none; /* Không có viền */  
+    background-color: #28a745; /* Màu nền button */  
+    color: #FFFFFF; /* Thay đổi màu chữ button thành trắng */  
+    text-decoration: none; /* Xóa gạch chân */  
+    border-radius: 5px; /* Bo góc cho button */  
+    margin-bottom: 20px; /* Thêm khoảng cách dưới button */  
+    cursor: pointer; /* Con trỏ khi hover */  
+}  
+
+/* Định dạng cho button khi hover */  
+.add-button:hover {  
+    background-color: #218838; /* Màu nền khi hover */  
+}
